@@ -52,6 +52,21 @@ Fig. 2. The images of Infinite Challenge Members
 
 In this study, I will add a layer or apply another activation function. In this way, various hyperparameter values will be changed. I would expect to make val_loss lower and make a better model. However, the data used to train the model were evaluated by 60 Chinese volunteers. Therefore, the results applied to the model are subjective.
 
+# VI.  Cases
+
+I created a CNN model that ranks faces using the SCUT-FBP5500 Dataset. In the process, 90% of the SCUT-FBP5500 Dataset was used as a test set and the remaining 10% as a validation set. Afterwards, techniques such as layer addition, imageDataGenerator, and dropout were used to find a model that minimizes val_loss and improved performance. A total of 8 cases were compared and analyzed.
+
+| <img width="542" alt="Screen Shot 2020-06-23 at 4 19 37 PM" src="https://user-images.githubusercontent.com/33794732/85373776-b96a4180-b56e-11ea-9758-1da0ecf22c7f.png"> | <img width="544" alt="Screen Shot 2020-06-23 at 4 20 14 PM" src="https://user-images.githubusercontent.com/33794732/85373789-be2ef580-b56e-11ea-85f3-cac00654fb01.png"> | <img width="541" alt="Screen Shot 2020-06-23 at 4 20 23 PM" src="https://user-images.githubusercontent.com/33794732/85373792-bec78c00-b56e-11ea-8ee4-6ee069bdfc99.png"> | <img width="541" alt="Screen Shot 2020-06-23 at 4 20 32 PM" src="https://user-images.githubusercontent.com/33794732/85373793-bf602280-b56e-11ea-9108-74ed6f8cb4cf.png"> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img width="542" alt="Screen Shot 2020-06-23 at 4 20 50 PM" src="https://user-images.githubusercontent.com/33794732/85373796-bff8b900-b56e-11ea-8829-0df9a0052c37.png"> | <img width="542" alt="Screen Shot 2020-06-23 at 4 20 59 PM" src="https://user-images.githubusercontent.com/33794732/85373799-c0914f80-b56e-11ea-8f83-40a55286c94d.png"> | <img width="542" alt="Screen Shot 2020-06-23 at 4 21 09 PM" src="https://user-images.githubusercontent.com/33794732/85373800-c129e600-b56e-11ea-9b2a-0225fae36c51.png"> | <img width="542" alt="Screen Shot 2020-06-23 at 4 21 22 PM" src="https://user-images.githubusercontent.com/33794732/85373801-c1c27c80-b56e-11ea-8a74-94125fe78e95.png"> |
+
+
+# VII. Results
+
+<img width="773" alt="Screen Shot 2020-06-23 at 4 35 09 PM" src="https://user-images.githubusercontent.com/33794732/85374315-8aa09b00-b56f-11ea-8e84-690f70262230.png">
+
+This is the result of the final voting in the actual Infinite Challenge program. This is the final result of reflecting the results of on-site voting, online, specialist, and overseas voting at the same rate (25% each). Among them, I would like to compare the results applied to the model of Case 8, which had a low val_loss. It is similar that Hong Chul is at the top and Myeong-Soo has the lowest score, but it is difficult to find a common point in the rest. It's no wonder that the results are different. This is because the data used to train the model itself is subjective. I thought that this study could be further developed and used in various marketing strategies even if it is not necessarily the face of comedians. It would be useful to conduct experiments such as'Favorite Face in the United States','Favorite Face in China', and'Favorite Face in Korea' and use it as a cultural content business targeting the culture.
+
 
 
 ##### References
